@@ -17,11 +17,11 @@ const router = createBrowserRouter(
       ]
     }
   ],
-  {basename: '/notes2'}
+  {basename: import.meta.env.BASE_URL }
 );
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />  {/* Используем RouterProvider с переданным router */}
+    <RouterProvider router={router}/>  
   </StrictMode>
 );
