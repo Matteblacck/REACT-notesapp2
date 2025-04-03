@@ -1,5 +1,3 @@
-import ThemeToggler from "./Theme/ThemeToggler";
-
 export default function Header() {
   return (
     <div className="container">
