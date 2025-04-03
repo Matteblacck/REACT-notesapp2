@@ -11,11 +11,6 @@ export default function Header() {
           <div>
             <h3 className="align-self-center">by matteblack</h3>
           </div>
-          <div className="d-flex">
-            <h3 style={{color:'gray'}}>Theme:</h3>
-            <ThemeToggler/>
-          </div>
-          
         </div>
       </div>
     </div>
